@@ -9,12 +9,12 @@ This is a repository where you can find a Jupyter notebook scripts for running [
 
 The main goal of this work is to demonstrate how to harness the power of cloud-computing in a cheap and yet feasible fashion.
 
-1. **GNINA** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pablo-arantes/Cloud-Bind/blob/main/GNINA.ipynb)  - `Using GNINA to perform molecular docking calculations with integrated support for scoring and optimizing ligands using convolutional neural networks. `
+1. **GNINA** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pablo-arantes/Cloud-Bind/blob/main/GNINA.ipynb)  - `Using GNINA to perform molecular docking calculations with integrated support for scoring and optimizing ligands using convolutional neural networks.`
 2. **GNINA+MD** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pablo-arantes/Cloud-Bind/blob/main/GNINA%2BMD.ipynb)  - `Using GNINA to perform molecular docking calculations and OpenMM to run molecular dynamics simulations.`
 3. **GNINA+OpenBPMD** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pablo-arantes/Cloud-Bind/blob/main/GNINA%2BOpenBPMD.ipynb)  - `Using GNINA to perform molecular docking calculations and OpenBPMD to evaluate binding pose with metadynamics (BPMD).`
-4. **Uni-Dock** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pablo-arantes/Cloud-Bind/blob/main/Uni_Dock.ipynb)  - `Using Uni-Dock to perform GPU-accelerated molecular docking calculations. It supports various scoring functions including vina and vinardo. `
-5. **Uni-Dock+MD** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pablo-arantes/Cloud-Bind/blob/main/Uni_Dock%2BMD.ipynb)  - `Using Uni-Dock to perform GPU-accelerated molecular docking calculations and OpenMM to run molecular dynamics simulations.`
-6. **Uni-Dock+OpenBPMD** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pablo-arantes/Cloud-Bind/blob/main/Uni_Dock%2BOpenBPMD.ipynb)  - `Using Uni-Dock to perform GPU-accelerated molecular docking calculations and OpenBPMD to evaluate binding pose with metadynamics (BPMD).`
+4. **Uni-Dock** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pablo-arantes/Cloud-Bind/blob/main/Uni_Dock.ipynb) [![Open In Bohrium](https://cdn.dp.tech/bohrium/web/static/images/open-in-bohrium.svg)](https://bohrium.dp.tech/github/pablo-arantes/Cloud-Bind/blob/main/Uni_Dock.ipynb) - `Using Uni-Dock to perform GPU-accelerated molecular docking calculations. It supports various scoring functions including vina and vinardo.`
+5. **Uni-Dock+MD** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pablo-arantes/Cloud-Bind/blob/main/Uni_Dock%2BMD.ipynb) [![Open In Bohrium](https://cdn.dp.tech/bohrium/web/static/images/open-in-bohrium.svg)](https://bohrium.dp.tech/github/pablo-arantes/Cloud-Bind/blob/main/Uni_Dock+MD.ipynb) - `Using Uni-Dock to perform GPU-accelerated molecular docking calculations and OpenMM to run molecular dynamics simulations.`
+6. **Uni-Dock+OpenBPMD** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pablo-arantes/Cloud-Bind/blob/main/Uni_Dock%2BOpenBPMD.ipynb) [![Open In Bohrium](https://cdn.dp.tech/bohrium/web/static/images/open-in-bohrium.svg)](https://bohrium.dp.tech/github/pablo-arantes/Cloud-Bind/blob/main/Uni_Dock+OpenBPMD.ipynb) - `Using Uni-Dock to perform GPU-accelerated molecular docking calculations and OpenBPMD to evaluate binding pose with metadynamics (BPMD).`
 
 ## Bugs
 - If you encounter any bugs, please report the issue to https://github.com/pablo-arantes/Cloud-Bind/issues
@@ -24,7 +24,7 @@ The main goal of this work is to demonstrate how to harness the power of cloud-c
 - We would like to thank the [Uni-Dock](https://github.com/dptech-corp/Uni-Dock) team for doing an excellent job open sourcing the software.
 - We would like to thank the [OpenBPMD](https://github.com/Gervasiolab/OpenBPMD) team for their open source implementation of binding pose metadynamics (BPMD).
 - We would like to thank the [Roitberg](https://roitberg.chem.ufl.edu/) team for developing the fantastic [TorchANI](https://github.com/aiqm/torchani).
-- We would like to thank [@ruiz_moreno_aj](https://twitter.com/ruiz_moreno_aj) for his work on [Jupyter Dock](https://github.com/AngelRuizMoreno/Jupyter_Dock) 
+- We would like to thank [@ruiz_moreno_aj](https://twitter.com/ruiz_moreno_aj) for his work on [Jupyter Dock](https://github.com/AngelRuizMoreno/Jupyter_Dock)
 - We would like to thank the ChemosimLab ([@ChemosimLab](https://twitter.com/ChemosimLab)) team for their incredible [ProLIF](https://prolif.readthedocs.io/en/latest/index.html#) (Protein-Ligand Interaction Fingerprints) tool.
 - Also, credit to [David Koes](https://github.com/dkoes) for his awesome [py3Dmol](https://3dmol.csb.pitt.edu/) plugin.
 - Finally, we would like to thank [Making it rain](https://github.com/pablo-arantes/making-it-rain) team, **Pablo R. Arantes** ([@pablitoarantes](https://twitter.com/pablitoarantes)), **Marcelo D. Polêto** ([@mdpoleto](https://twitter.com/mdpoleto)), **Conrado Pedebos** ([@ConradoPedebos](https://twitter.com/ConradoPedebos)) and **Rodrigo Ligabue-Braun** ([@ligabue_braun](https://twitter.com/ligabue_braun)), for their amazing work.
@@ -43,6 +43,6 @@ The main goal of this work is to demonstrate how to harness the power of cloud-c
 - If you’re using **OpenBPMD**, please cite: <br />
   Clark et al. "Prediction of Protein–Ligand Binding Poses via a Combination of Induced Fit Docking and Metadynamics Simulations." <br />
   Journal of Chemical Theory and Computation (2016) doi: [10.1021/acs.jctc.6b00201](https://doi.org/10.1021/acs.jctc.6b00201)
-  
+
   Lukauskis et al. "Open Binding Pose Metadynamics: An Effective Approach for the Ranking of Protein–Ligand Binding Poses." <br />
   Journal of Chemical Information and Modeling (2022) doi: [10.1021/acs.jcim.2c01142](https://doi.org/10.1021/acs.jcim.2c01142)
